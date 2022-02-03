@@ -4,7 +4,11 @@
   "description": "Node Blog Application",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "start-prod": "set NODE_ENV=production && node app.js"
+
   },
   "author": "",
   "license": "ISC",
@@ -23,5 +27,8 @@
   },
   "devDependencies": {
     "handlebars": "^4.5.0"
+  },
+  "engines": {
+    "node": "16.13.1"
   }
 }
