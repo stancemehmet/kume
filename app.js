@@ -11,7 +11,7 @@ const expressSession = require('express-session')
 const connectMongo = require('connect-mongo')
 const methodOverride = require('method-override')
 
-mongoose.connect('mongodb+srv://admin:230977@nodeblog.5r8o3.mongodb.net/test', {
+mongoose.connect('mongodb+srv://admin:230977@cluster0.5r8o3.mongodb.net/test', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
